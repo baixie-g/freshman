@@ -1,0 +1,18 @@
+﻿  源.cpp
+C:\Users\20392\Desktop\新手村\四位数改进版1.0\四位数改进版1.0\源.cpp(9,12): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+C:\Users\20392\Desktop\新手村\四位数改进版1.0\四位数改进版1.0\源.cpp(21,22): warning C4244: “初始化”: 从“double”转换到“__int64”，可能丢失数据
+C:\Users\20392\Desktop\新手村\四位数改进版1.0\四位数改进版1.0\源.cpp(28,11): warning C4244: “=”: 从“double”转换到“__int64”，可能丢失数据
+C:\Users\20392\Desktop\新手村\四位数改进版1.0\四位数改进版1.0\源.cpp(30,16): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+C:\Users\20392\Desktop\新手村\四位数改进版1.0\四位数改进版1.0\源.cpp(31,21): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+C:\Users\20392\Desktop\新手村\四位数改进版1.0\四位数改进版1.0\源.cpp(33,48): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+C:\Users\20392\Desktop\新手村\四位数改进版1.0\四位数改进版1.0\源.cpp(38,10): warning C4244: “=”: 从“double”转换到“__int64”，可能丢失数据
+C:\Users\20392\Desktop\新手村\四位数改进版1.0\四位数改进版1.0\源.cpp(46,12): warning C4244: “=”: 从“double”转换到“__int64”，可能丢失数据
+C:\Users\20392\Desktop\新手村\四位数改进版1.0\四位数改进版1.0\源.cpp(50,17): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+C:\Users\20392\Desktop\新手村\四位数改进版1.0\四位数改进版1.0\源.cpp(51,22): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+C:\Users\20392\Desktop\新手村\四位数改进版1.0\四位数改进版1.0\源.cpp(53,49): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+C:\Users\20392\Desktop\新手村\四位数改进版1.0\四位数改进版1.0\源.cpp(77,14): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+C:\Users\20392\Desktop\新手村\四位数改进版1.0\四位数改进版1.0\源.cpp(82,13): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+C:\Users\20392\Desktop\新手村\四位数改进版1.0\四位数改进版1.0\源.cpp(84,12): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+C:\Users\20392\Desktop\新手村\四位数改进版1.0\四位数改进版1.0\源.cpp(19,12): warning C4101: “ER”: 未引用的局部变量
+C:\Users\20392\Desktop\新手村\四位数改进版1.0\四位数改进版1.0\源.cpp(19,7): warning C4101: “SAN”: 未引用的局部变量
+  四位数改进版1.0.vcxproj -> C:\Users\20392\Desktop\新手村\四位数改进版1.0\x64\Debug\四位数改进版1.0.exe

@@ -1,0 +1,5 @@
+﻿  源.cpp
+C:\Users\20392\Desktop\新手村\caogao\caogao\源.cpp(9,12): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+C:\Users\20392\Desktop\新手村\caogao\caogao\源.cpp(18,18): warning C4101: “ER”: 未引用的局部变量
+C:\Users\20392\Desktop\新手村\caogao\caogao\源.cpp(18,13): warning C4101: “SAN”: 未引用的局部变量
+  caogao.vcxproj -> C:\Users\20392\Desktop\新手村\caogao\x64\Debug\caogao.exe

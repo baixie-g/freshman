@@ -1,0 +1,6 @@
+﻿  源.cpp
+C:\Users\20392\Desktop\新手村\c++此本由政府免费提供\c++此本由政府免费提供\源.cpp(10,12): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+C:\Users\20392\Desktop\新手村\c++此本由政府免费提供\c++此本由政府免费提供\源.cpp(25,12): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+C:\Users\20392\Desktop\新手村\c++此本由政府免费提供\c++此本由政府免费提供\源.cpp(35,12): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+C:\Users\20392\Desktop\新手村\c++此本由政府免费提供\c++此本由政府免费提供\源.cpp(66,11): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+  c++此本由政府免费提供.vcxproj -> C:\Users\20392\Desktop\新手村\c++此本由政府免费提供\x64\Debug\c++此本由政府免费提供.exe

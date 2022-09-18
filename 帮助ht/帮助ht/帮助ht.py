@@ -1,0 +1,4 @@
+# -*- coding: gbk -*-
+
+
+print("PYTHON hello »ÆÌì\"\"\"")

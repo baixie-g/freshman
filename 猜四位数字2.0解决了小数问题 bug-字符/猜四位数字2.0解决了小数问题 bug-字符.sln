@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "猜四位数字2.0解决了小数问题 bug-字符", "猜四位数字2.0解决了小数问题 bug-字符\猜四位数字2.0解决了小数问题 bug-字符.vcxproj", "{37E6977E-7A5C-4F06-BED8-63584A2E277C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37E6977E-7A5C-4F06-BED8-63584A2E277C}.Debug|x64.ActiveCfg = Debug|x64
+		{37E6977E-7A5C-4F06-BED8-63584A2E277C}.Debug|x64.Build.0 = Debug|x64
+		{37E6977E-7A5C-4F06-BED8-63584A2E277C}.Debug|x86.ActiveCfg = Debug|Win32
+		{37E6977E-7A5C-4F06-BED8-63584A2E277C}.Debug|x86.Build.0 = Debug|Win32
+		{37E6977E-7A5C-4F06-BED8-63584A2E277C}.Release|x64.ActiveCfg = Release|x64
+		{37E6977E-7A5C-4F06-BED8-63584A2E277C}.Release|x64.Build.0 = Release|x64
+		{37E6977E-7A5C-4F06-BED8-63584A2E277C}.Release|x86.ActiveCfg = Release|Win32
+		{37E6977E-7A5C-4F06-BED8-63584A2E277C}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {10B77DC1-ABF4-4F51-A2C4-3546482AEB37}
+	EndGlobalSection
+EndGlobal
