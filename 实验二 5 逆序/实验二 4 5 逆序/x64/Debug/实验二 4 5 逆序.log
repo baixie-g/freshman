@@ -1,0 +1,4 @@
+﻿  源.cpp
+C:\Users\20392\Desktop\新手村\实验二 5 逆序\实验二 4 5 逆序\源.cpp(18,14): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
+C:\Users\20392\Desktop\新手村\实验二 5 逆序\实验二 4 5 逆序\源.cpp(6,18): warning C4101: “shou”: 未引用的局部变量
+  实验二 4 5 逆序.vcxproj -> C:\Users\20392\Desktop\新手村\实验二 5 逆序\x64\Debug\实验二 4 5 逆序.exe
