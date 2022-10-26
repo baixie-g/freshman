@@ -90,11 +90,12 @@ int a;
 
 		////////////////printf("时间差是%d小时%d分。", t / 60, t % 60);
 
-	int a = 9;
-	bool ge = a % 10 - 8;
-	cout << ge << endl;
+	//int a = 9;
+	//bool ge = a % 10 - 8;
+	//cout << ge << endl;
 
-
+	char* p;
+	p = "0x12312312";
 
 	
 
