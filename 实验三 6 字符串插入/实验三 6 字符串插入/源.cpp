@@ -14,9 +14,9 @@ void main()
 	cin >> b;
 	cout << "输入第一个字符插入第二个字符第几位后" << endl;
 	cin >> n;
-	while(b[i] != '\0')
+	while(b[i])
 	{
-		if (i + 1 == n)c += a;
+		if (i == n)c += a;
 		c += b[i];
 
 		i++;

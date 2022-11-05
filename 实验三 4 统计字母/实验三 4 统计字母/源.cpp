@@ -33,9 +33,7 @@ int main()
 	cin >> s;
 	for (int i = 0; s[i]; i++)
 	{
-		
 		a[(s[i] - 'A') % 32]++;
-		cout << a[i] << endl;
 	}
 	for (int i = 0; i < 26; i++)
 		cout << char(i + 'A') << char(i + 'a') << a[i] << endl;

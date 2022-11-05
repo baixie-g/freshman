@@ -94,8 +94,8 @@ int a;
 	//bool ge = a % 10 - 8;
 	//cout << ge << endl;
 
-	char* p;
-	p = "0x12312312";
+	//char* p;
+	//p = "0x12312312";
 
 	
 
