@@ -14,15 +14,16 @@ double max(double* a, int n)
 	}
 	return max;
 }
-
 int main()
 {
+	cout << "几位数组？" << endl;
 	int n;
 	cin >> n;
 	double a[50];
+	cout << "分别输入" << endl;
 	for (int i = 0; i < n; i++)
 	{
 		cin >> a[i];
 	}
-	cout << max(a, n) << endl;
+	cout <<"最大" << max(a, n) << endl;
 }

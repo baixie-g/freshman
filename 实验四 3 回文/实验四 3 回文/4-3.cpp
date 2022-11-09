@@ -16,7 +16,14 @@ bool isPalindromes(int x)
 }
 int main()
 {
+	int a;
 	for (int i = 1; i < 1000; i++)
 		if (isPalindromes(i))
 			cout << i << endl;
+	cin >> a;
+	if (isPalindromes(a))
+		cout << "是回文" << endl;
+	else
+		cout << "非回文" << endl;
+
 }

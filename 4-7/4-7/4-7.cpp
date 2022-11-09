@@ -1,4 +1,5 @@
 #include <iostream>
+using namespace std;
 //（7）先使用动态数组申请m个整型空间(new int[m])，
 // 赋值m个整数。现在还想再输入n个整数，
 // 使这m+n数据仍为一个数组。
@@ -11,6 +12,29 @@
 //using namespace std;
 ////动态数组扩展
 //
+void main()
+{
+	int n;
+    cout<<"输入动态数组元素个数:";
+    cin>>n;
+    int *p1 = new int[n];
+    cout<<"输入动态数组元素的值:";
+    for(int i=0;i<n;i++)
+        cin>>p1[i];
+    cout<<"输入要扩展元素个数:";
+    int m;
+    cin>>m;
+    int *p2 = new int[n+m];
+    cout<<"输入扩展动态数组元素的值:";
+    for(int i=0;i<n;i++)
+        p2[i] = p1[i];
+    delete []p1;
+    for(int i=n;i<n+m;i++)
+        cin>>p2[i];
+    for(int i=0;i<n+m;i++)
+        cout<<p2[i]<<" ";
+    delete []p2;
+}
 //int main()
 //{
 //    int n;

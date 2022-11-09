@@ -3,6 +3,8 @@
 using namespace std;
 bool isOddDigit(int n) 
 {
+    if (!n)
+        return false;
     while (n) 
     {
         if (n % 2)
