@@ -1,0 +1,5 @@
+﻿  源.cpp
+C:\Users\20392\Desktop\新手村\bzlxf\bzlxf\源.cpp(29,21): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\20392\Desktop\新手村\bzlxf\bzlxf\源.cpp(30,21): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\20392\Desktop\新手村\bzlxf\bzlxf\源.cpp(46,22): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  bzlxf.vcxproj -> C:\Users\20392\Desktop\新手村\bzlxf\x64\Debug\bzlxf.exe

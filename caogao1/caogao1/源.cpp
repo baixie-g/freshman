@@ -97,7 +97,58 @@ int a;
 	//char* p;
 	//p = "0x12312312";
 
-	
+	//char a[10];
+	//char b[5];
+	//cin >> a;
+	//cout << a << endl;
+	//(*a)++;
+	//cout << a<<endl;
+	//a[0]++;
+	//b[0] = 'a';
+	//cout << int('1') << endl;
+	////cout << a << endl;
+	//cout << b[0] << endl;
+	////cout << b[2] << endl;
+
+
+//cout << "wda" << "\0easdk" << endl;
+
+//
+//char ch = 'A' + '6' - '3';
+//printf("%c", ch);
+//
+//string a = "12345678901234567890123456789012345678901123456789012345678901234567890";
+//char b[] = "a1234567890bcd";
+//cout << sizeof(a) << endl;
+//cout << sizeof(b) << endl;
+
+//
+//for (int x = 4, y = 0; (y = 1) && (x > 3); x--)
+//cout << x;
+
+//
+char ch[12] = "hello,world";
+//
+//while (true)
+//{
+//	cout << endl;
+//}
+//ch¾ÍÊÇ&h
+char* p = ch;
+
+cout << p << endl;
+cout << ch << endl;
+cout << *ch<< endl;
+cout << *p << endl;
+cout << &ch << endl;
+cout << & ch << endl;
+cout << &p << endl;
+cout << *(p+1) << endl;
+cout << p+1 << endl;
+
+
+
+
 
 
 	return 0;

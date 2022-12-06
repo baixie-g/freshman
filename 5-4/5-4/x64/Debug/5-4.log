@@ -1,0 +1,3 @@
+﻿  5-4.cpp
+C:\Users\20392\Desktop\新手村\5-4\5-4\5-4.cpp(1,1): warning C4828: 文件包含在偏移 0xd7b 处开始的字符，该字符在当前源字符集中无效(代码页 936)。
+  5-4.vcxproj -> C:\Users\20392\Desktop\新手村\5-4\x64\Debug\5-4.exe
