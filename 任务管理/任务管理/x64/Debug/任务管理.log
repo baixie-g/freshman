@@ -1,0 +1,3 @@
+﻿  mission_manage.cpp
+C:\Users\20392\Desktop\新手村\任务管理\任务管理\mission_manage.cpp(344,6): warning C4101: “remind”: 未引用的局部变量
+  任务管理.vcxproj -> C:\Users\20392\Desktop\新手村\任务管理\x64\Debug\任务管理.exe
