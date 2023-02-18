@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1669381262 source:c:\users\ocs\desktop\assistant\main.cpp
+	<iostream>
+	"Assistant.h"
+
+1669381298 c:\users\ocs\desktop\assistant\assistant.h
+	<string>
+

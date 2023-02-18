@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1669264065 source:c:\users\ocs\desktop\shape\main.cpp
+	<iostream>
+	"Circle.h"
+
+1669263932 c:\users\ocs\desktop\shape\circle.h
+	"shape.h"
+
+1669264222 c:\users\ocs\desktop\shape\shape.h
+
+1669263954 source:c:\users\ocs\desktop\shape\shape.cpp
+	"shape.h"
+	<iostream>
+
+1669263990 source:c:\users\ocs\desktop\shape\circle.cpp
+	"Circle.h"
+	<iostream>
+
+1669263954 source:c:\users\ocs\desktop\2022年秋教学\软院\c++课件（2022)\shape\shape.cpp
+	"shape.h"
+	<iostream>
+
+1669347778 c:\users\ocs\desktop\2022年秋教学\软院\c++课件（2022)\shape\shape.h
+

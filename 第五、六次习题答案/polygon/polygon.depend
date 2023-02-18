@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1669216309 source:c:\users\ocs\desktop\polygon\line.cpp
+	"point.h"
+	"line.h"
+	<iostream>
+	<cmath>
+
+1669213842 c:\users\ocs\desktop\polygon\point.h
+
+1669216330 c:\users\ocs\desktop\polygon\line.h
+	"point.h"
+
+1669216221 source:c:\users\ocs\desktop\polygon\main.cpp
+	<iostream>
+	"polygon.h"
+
+1669216130 c:\users\ocs\desktop\polygon\polygon.h
+	"line.h"
+

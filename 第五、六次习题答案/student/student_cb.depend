@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1606306080 source:c:\users\lenovo\desktop\student_cb\student.cpp
+	<iostream>
+	"student.h"
+	<cstring>
+
+1606306156 c:\users\lenovo\desktop\student_cb\student.h
+
+1606306080 source:c:\users\lenovo\desktop\student_cb\main.cpp
+	<iostream>
+	<cstring>
+	"student.h"
+
+1606306080 source:c:\users\lenovo\desktop\2020年秋教学\软件学院\c++课件\student_cb\student.cpp
+	<iostream>
+	"student.h"
+	<cstring>
+
+1606306156 c:\users\lenovo\desktop\2020年秋教学\软件学院\c++课件\student_cb\student.h
+
+1606306080 source:c:\users\lenovo\desktop\2020年秋教学\软件学院\c++课件\student_cb\main.cpp
+	<iostream>
+	<cstring>
+	"student.h"
+
