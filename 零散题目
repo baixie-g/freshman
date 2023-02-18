@@ -1,0 +1,195 @@
+#include<iostream>
+#include<cmath>
+#include<math.h>
+class Point
+{
+private:
+    int x, y;
+public:
+    Point(int x = 0, int y = 0)
+    {
+        this->x = x;
+        this->y = y;
+
+    }
+
+    //*****************************************************************************************
+
+
+    int getx();
+    int gety();
+    void show();//���������
+    //friend class Line;
+};
+class Line
+{
+private:
+    Point p1, p2;
+public:
+    Line() {}
+    Line(int x1, int y1, int x2, int y2)
+    {
+        p1=(x1, y1);
+        p2=(x2, y2);
+    }
+    Line(Point p1, Point p2)
+    {
+        this->p1 = p1;
+        this->p2 = p2;
+    }
+
+    //*****************************************************************************************
+
+    double length();
+    Point getp1();
+    Point getp2();
+    void show();//���ֱ�������˵�����
+    friend class Polygon;
+};
+class Polygon
+{
+private:
+    Line* p;
+    int edges;//����α���
+public:
+    Polygon(Line* t, int edge_num)
+    {
+        edges = edge_num;
+        p = new Line[edges];
+        for (int i = 0; i < edges; i++)
+        {
+            p[i] = t[i];
+        }
+
+    }//��һ������������Σ�һ�����Line�����������
+    Polygon(Point* t, int point_num)
+    {
+        edges = point_num;
+        p = new Line[edges];
+        Line temp(t[point_num - 1], t[0]);
+        p[0] = temp;
+        for (int i = 1; i < edges - 1; i++)
+        {
+            Line temp(t[i], t[i + 1]);
+            p[i + 1] = temp;
+        }
+    }//��һ�鶥�����������Σ�һ�鶥����Point�����������
+    Polygon(const Polygon& t)
+    {
+        p = t.p;
+        edges = t.edges;
+    }//�������캯��
+    ~Polygon();
+    //��������
+
+    //*****************************************************************************************
+    double area();
+    double perimeter();//���������ܳ�
+    void show();//�������ζ������С��ܳ������
+
+};
+
+using namespace std;
+int Point::getx()
+{
+	return x;
+
+}
+int Point::gety()
+{
+	return y;
+}
+void Point::show()
+{
+	cout << x << "," << y;
+}
+
+double Line::length()
+{
+	double length=0,temp;
+	temp = pow(p2.getx() - p1.getx(), 2) + pow(p2.gety() - p1.gety(), 2);
+	length += sqrt(temp);
+	return length;
+}
+	
+
+	
+
+Point Line::getp1()
+{
+	return p1;
+}
+Point Line::getp2()
+{
+	return p2;
+}
+void Line::show()
+{
+	cout << "�˵�p1�����ǣ�" << p1.getx() << "," << p1.gety();
+	cout << endl;
+	cout << "�˵�p2�����ǣ�" << p2.getx() << "," << p2.gety();
+	cout << endl;
+}
+
+
+Polygon::~Polygon()
+{
+	cout << endl;
+	delete p;
+	cout << "��ɾ����";
+}
+double Polygon::area()
+{
+	double x1, x2, x3, y1, y2, y3,temp, S=0;
+	x1=p[0].p2.getx();
+	y1 = p[0].p2.gety();
+	for (int i = 1; i < edges - 1; i++)
+	{
+		x2 = p[i].p2.getx();
+		y2 = p[i].p2.gety();
+		x3 = p[i+1].p2.getx();
+		y3 = p[i+1].p2.gety();
+		S += 0.5 * (x1 * y2 + x2 * y3 + x3 * y1 - y1 * x2 - y2 * x3 - y3 * x1);
+	}
+	return S;
+
+}//�����������
+double Polygon::perimeter()
+{
+	double perimeter=0;
+	for (int i = 0; i < edges; i++)
+	{
+		perimeter += p[i].length();
+	}
+	return perimeter;
+}//���������ܳ�
+void Polygon::show()
+{
+	cout << "������Ϊ��";
+	for (int i = 0; i < edges; i++)
+	{
+		cout << p[i].p2.getx() << "," << p[i].p2.gety();
+			cout << " ";
+	}
+	cout << endl;
+	cout << "�ܳ�Ϊ��" << perimeter();
+	cout << endl;
+	cout << "���Ϊ��" << area();
+
+
+}
+
+
+
+int main()
+{
+	Line l1(0,0, 1, 0);
+	Line l2(1, 0, 1, 1);
+	Line l3(1, 1,0, 1);
+	Line l4(0, 1, 0, 0);
+	Line arr[4] = { l1,l2,l3,l4 };
+	Polygon p1(arr, 4);
+	p1.show();
+
+	return 0;
+}
